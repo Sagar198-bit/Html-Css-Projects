@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+
+}
+
+
+
+:root {
+    --purpule-one: #281154;
+    --purpule-two: #270082;
+    --purpule-three: #1b0058;
+    --red-one: #dc0000;
+    --white-colur: white;
+    --max-width: 1200px;
+}
+
+body {
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+header {
+    background-color: var(--purpule-two);
+    color: var(--white-colur);
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    filter: drop-shadow(0px 0px 10px black);
+    scroll-behavior: smooth;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+
+}
+
+header nav .Container {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    color: var(--white-colur);
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+main .Hero-section {
+    background-image: url(Frame\ 1.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+
+}
+
+main .Hero-section .Container {
+    color: white;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+main .Hero-section .Container h1 {
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+main .Hero-section .Container h4 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+main .music-section .first-music-section {
+    height: 100vh;
+    background-color: var(--purpule-three);
+}
+
+main .music-section .first-music-section .Text-image-Section {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+
+
+
+}
+
+main .music-section .first-music-section .Text-image-Section #first-span {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+main .music-section .first-music-section .Text-image-Section #first-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .music-section .first-music-section .Text-image-Section #second-paragraph {
+    font-size: 15PX;
+    font-weight: 400;
+}
+
+main .music-section .first-music-section .Text-image-Section #second-span {
+    width: 200px;
+    background-color: #DC0000;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+main .music-section .first-music-section .Text-image-Section #third-paragraph {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+main .laptop-and-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+main .laptop-and-text #first-span {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+main .laptop-and-text button {
+    padding: 10px 20px;
+    background-color: var(--purpule-two);
+    color: white;
+    font-weight: 400;
+}
+
+main .laptop-and-text img {
+    object-fit: cover;
+}
+
+main .Second-video-section {
+    height: 100vh;
+    background-image: url(video.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white-colur);
+    display: grid;
+    place-content: center;
+}
+
+main .Second-video-section .text-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+
+}
+
+main .Second-video-section .text-section #span-one {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main .Second-video-section .text-section #paragraph-first {
+    font-size: 15px;
+
+}
+
+main .Gift-cards {
+    padding: 100px;
+
+}
+
+main .Gift-cards .Inner-Section {
+
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+main .Gift-cards .Inner-Section .image-box {
+    width: 100%;
+}
+
+main .Gift-cards .Inner-Section .text-section {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+main .Gift-cards .Inner-Section .text-section .Inner-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 95%;
+
+
+
+
+
+}
+
+main .Gift-cards .Inner-Section .text-section article {
+    font-size: 15px;
+}
+
+main .Gift-cards .Inner-Section .text-section #span-one {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .Gift-cards .Inner-Section .text-section #span-three {
+    font-size: 15px;
+}
+
+main .Gift-cards .Inner-Section .text-section .Inner-text-section .line {
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(139, 138, 138);
+}
+
+main .Gift-cards .Inner-Section .text-section button {
+    padding: 8px 25px;
+    background-color: var(--purpule-two);
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+
+    main .Gift-cards .Inner-Section {
+        flex-direction: column;
+    }
+    header nav {
+        flex-direction: column;
+       gap: 10px;
+       padding: 0;
+    }
+    main .Gift-cards {
+        padding: 50px;
+    
+    }
+   header {
+    min-width: 300px;
+   }
+   main .Hero-section .Container h1 {
+    font-size: 50px;
+   }
+   html ,body{
+
+    overflow-x: hidden;
+  }
+  
+}
+footer {
+    height: 100vh;
+    
+}

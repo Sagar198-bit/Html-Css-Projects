@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --lighting-color: #0089b7;
+    --dark-color: #003d62;
+    --darker-color: #003251;
+    --secondary-color: #fff700;
+    --text-color: white;
+    --max-width: 1300px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/*Nav Css starts here*/
+nav {
+    background-color: var(--lighting-color);
+    color: var(--text-color);
+}
+
+nav .Inner-nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0.8rem;
+}
+
+nav .Inner-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+
+nav .Inner-nav #Logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav .Inner-nav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav .Inner-nav ul li {
+    border-bottom: 0.3rem transparent var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+nav .Inner-nav ul li:hover {
+    border-bottom: 0.3rem solid var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+/*Header Css Starts From here*/
+
+header {
+    background-color: var(--dark-color);
+    color: white;
+    border-bottom: var(--darker-color);
+
+}
+
+.Inner-Header {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+
+}
+
+.Inner-Header #Image-Section {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.371));
+}
+
+.Inner-Header #Text-Section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Inner-Header #Text-Section #header-text-first #First-Span {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #FDFF9E;
+}
+
+.Inner-Header #Text-Section #header-text-first #Second-Span {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.Inner-Header #Text-Section #header-text-first #Third-Span {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.Inner-Header #Text-Section #header-text-second {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+header .Inner-Header #Text-Section #header-text-second {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 5s steps(40, end) infinite,
+        blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Inner-Header {
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+
+    html {
+        font-size: 30%;
+    }
+
+    nav {
+        padding: 1rem 2rem;
+    }
+
+    header {
+        padding: 5rem;
+    }
+
+    header #Image-Section img {
+        width: 100%;
+    }
+    main .Projects-Section header {
+        padding: 3rem;
+    }
+    main .Projects-Section header h1 {
+        font-size: 2.5rem;
+    }
+    .grid-container {
+        gap: 3rem;
+        
+    }
+}
+
+
+/*Section Css Starts here*/
+
+
+main .Projects-Section {
+    margin: 0 auto;
+    background-color: var(--darker-color);
+    padding: 4rem;
+
+
+}
+
+main .Projects-Section header h2 {
+    color: rgb(255, 255, 255);
+    background-color: var(--darker-color);
+    text-align: center;
+    font-size: 4.5rem;
+
+
+}
+
+main .Projects-Section header {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    background-color: var(--darker-color);
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    place-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+
+
+
+
+}
+
+.grid-container div {
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.grid-container div:hover {
+    transform: scale(1.05);
+}
+.Eight-image img {
+     border-radius: 10px;
+}
+.Nine-image img {
+    border-radius: 10px;
+}
+.Contact-Section {
+    color: rgb(255, 255, 255);
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 20rem 0;
+
+}
+
+.Contact-Section .Inner-Section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Section .icons-section-first {
+    display: flex;
+    gap: 5rem;
+}
+
+.Contact-Section .icons-section-second {
+    display: flex;
+    gap: 5rem;
+}
+
+.Contact-Section h1 {
+    font-size: 4.5rem;
+}
+
+.Contact-Section h2 {
+    font-size: 2.25;
+}
+
+footer {
+    background-color: var(--darker-color);
+    color: white;
+    padding: 2.5rem;
+}
+
+footer .Inner-Footer-Section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.5rem;
+
+}

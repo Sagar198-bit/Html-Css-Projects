@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body , html {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+header nav {
+    min-width: 300px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+
+}
+
+.Hero-Section-Wrapper {
+    width: 100%;
+}
+
+.Hero-Section-Wrapper .Hero-Section-Inner {
+    min-width: 300px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+
+
+}
+
+
+.Hero-Section-Wrapper .Hero-Section-Inner .Text-Section #span-one {
+    background-color: #149F39;
+    color: white;
+    padding: 5px 10px;
+    width: 180px;
+
+
+
+}
+
+.Hero-Section-Wrapper .Hero-Section-Inner .Text-Section {
+    height: 275px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    justify-content: space-around;
+    width: 500px;
+
+
+}
+
+.Hero-Section-Wrapper .Hero-Section-Inner .Text-Section .heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+
+
+
+}
+
+.Hero-Section-Wrapper .Hero-Section-Inner .Text-Section p {
+    font-size: 12px;
+    width: 70%;
+
+}
+
+.Hero-Section-Wrapper .Hero-Section-Inner .Text-Section #span-two {
+    background-color: #FFC066;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    width: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .Hero-Section-Wrapper .Hero-Section-Inner {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 25px;
+
+
+
+
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section .heading {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Image-Section img {
+        height: 400px;
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section .heading {
+        font-size: 20px;
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section #span-two {
+        border-radius: 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Image-Section img {
+        height: 300px;
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section {
+        height: 250px;
+    }
+
+    .Hero-Section-Wrapper .Hero-Section-Inner .Text-Section .heading {
+        font-size: 15px;
+
+    }
+
+}
+
+/*Second Section of website where responsive will apply*/
+
+
+.Facility-Section-Inner {
+    min-width: 300px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+
+
+
+
+
+}
+
+.Facility-Section-Inner .Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+
+
+}
+
+.Facility-Section-Inner .Section img {
+    padding: 10px;
+
+}
+
+.Facility-Section-Inner .Section .Text-Section {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .Facilty-Section .Facility-Section-Inner {
+        flex-wrap: wrap;
+        margin-top: 0px;
+
+    }
+
+}
+
+.Foods-Image-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 25px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.Foods-Image-Section .Menu-text {
+    background-color: #149F39;
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.Foods-Image-Section .Explore-Text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Foods-Image-Section .Foods-Photos {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
+
+.Foods-Image-Section .Foods-Photos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+
+.Foods-Image-Section .Foods-Photos img:hover {
+    transform: scale(1.05);
+}
+
+.Foods-Image-Section .Foods-Photos .First-Image {
+    grid-area: I1;
+}
+
+.Foods-Image-Section .Foods-Photos .Second-Image {
+    grid-area: I2;
+}
+
+.Foods-Image-Section .Foods-Photos .Third-Image {
+    grid-area: I3;
+}
+
+.Foods-Image-Section .Foods-Photos .Fourth-Image {
+    grid-area: I4;
+}
+
+.Foods-Image-Section .Foods-Photos .fifth-Image {
+    grid-area: I5;
+}
+
+.Foods-Image-Section .Foods-Photos .Sixth-Image {
+    grid-area: I6;
+}
+
+.Foods-Image-Section .Foods-Photos .Seventh-Image {
+    grid-area: I7;
+}
+
+footer {
+    background-color: #FFF0DB;
+    padding: 80px 40px;
+}
+
+.Inner-Footer {
+    min-width: 300px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.Inner-Footer .Main-Link {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Inner-Footer .Support {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Inner-Footer .Main-Link span {
+    font-weight: 500;
+    color: gray;
+
+}
+
+.Inner-Footer .Main-Link ul li {
+    font-size: 15px;
+
+}
+
+.Inner-Footer .Support span {
+    font-weight: 500;
+    color: gray;
+}
+
+.Inner-Footer .Support ul li {
+    font-size: 15px;
+}
+
+.Inner-Footer .Last-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+
+}
+
+.Inner-Footer .Last-Section span {
+    font-weight: 500;
+    color: gray;
+}
+
+.Inner-Footer .icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+@media screen and (max-width: 1050px) {
+    .Inner-Footer {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .Inner-Footer .Last-Section {
+        width: 200px;
+    }
+
+    .Inner-Footer .icons {
+
+
+        justify-content: flex-start;
+        justify-content: space-evenly;
+        text-align: start;
+
+
+
+
+
+    }
+}

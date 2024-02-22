@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+    line-height: 2;
+
+}
+
+:root {
+    --max-width: 1100px;
+}
+
+p {
+    font-size: 15px;
+    color: #2D3748;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav header h3 {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+nav header {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+main section figure img {
+    width: 100%;
+
+}
+
+main .Section-First header {
+
+    line-height: 3;
+}
+
+main .Section-First header h1 {
+    font-size: 45px;
+
+}
+
+main .Section-First header #First-span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+main .Section-First header #second-span {
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.868);
+
+}
+
+main .Section-First article {
+    /* margin-top: 50px; */
+    color: #2D3748;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+main .Section-First article h1 {
+    font-size: 30px;
+}
+
+main .section-second {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .section-second article h1 {
+    font-size: 30px;
+}
+
+main .section-third {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .section-third article h1 {
+    font-size: 30px;
+}
+
+footer {
+    /* padding: 20px 50px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer .footer-icons {
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.seprate-line {
+    height: 1.5px;
+    background-color: rgba(150, 150, 150, 0.275);
+    width: 100%;
+    margin: 20px 0;
+
+
+}
+
+@media screen  and (max-width: 500px){
+    .Container {
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 10px
+    }
+
+}
+
+@media screen  and (max-width: 600px){
+   footer {
+    flex-direction: column;
+    gap: 10px;
+   }
+   footer  .footer-icons {
+    padding: 0;
+   }
+}
+
+@media screen  and (max-width: 715px){
+    main .Section-First header h1 {
+        font-size: 35px;
+    }
+    main .Section-First header span {
+        font-size: 10px;
+        
+    }
+}
+@media screen  and (max-width: 565px){
+    main .Section-First header h1 {
+        font-size: 25px;
+    }
+    main .Section-First header {
+        flex-direction: column;
+    }
+}
+@media screen  and (max-width: 565px){
+    main .Section-First header h1 {
+        font-size: 20px;
+    }
+    
+}

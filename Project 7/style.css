@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: none; */
+    outline: none;
+cursor: pointer;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+
+}
+
+
+.Container-First-part-Header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Container-First-part-Header .First-part-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.145);
+}
+
+.Container-First-part-Header .First-part-header .Youtube-Icon {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.Container-First-part-Header .First-part-header .Searchbar {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.Container-First-part-Header .First-part-header .Searchbar .First-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.Container-First-part-Header .First-part-header .Searchbar .First-section input {
+    width: 500px;
+    padding: 7px 5px;
+}
+
+.Container-First-part-Header .First-part-header .Searchbar .First-section .Search-Icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 10px;
+    background-color: rgba(128, 128, 128, 0.284);
+}
+
+.Container-First-part-Header .First-part-header .Searchbar .Second-Section {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(128, 128, 128, 0.277);
+    border-radius: 50%;
+}
+
+.Container-First-part-Header .First-part-header .features-Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Container-First-part-Header .Second-part-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 40px;
+
+}
+
+.Container-First-part-Header .Second-part-header .First-section {
+    display: flex;
+    gap: 20px;
+}
+
+.Container-First-part-Header .Second-part-header .First-section span {
+    padding: 5px 15px;
+    background-color: #a7a7a77e;
+    color: rgb(16, 0, 0);
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.Container-First-part-Header .Second-part-header .First-section span:hover {
+    background-color: black;
+    color: white;
+}
+
+.Videos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Videos-Section .Videos-Section-Inner {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 3px;
+
+}
+
+.Videos-Section .Videos-Section-Inner .Inner-Text {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+
+.Videos-Section .Videos-Section-Inner .Inner-Text p {
+    font-size: 14px;
+}
+
+.Videos-Section .Videos-Section-Inner .Inner-Text span {
+    font-size: 10px;
+}
+
+.Videos-Section .Videos-Section-Inner .images-section {
+    height: 160px;
+}
+
+.Container-side-navbar {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+
+.Container-side-navbar aside {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.Container-side-navbar aside .Second-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

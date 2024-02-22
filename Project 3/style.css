@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@300&family=Open+Sans:wght@300;400&family=Poppins:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Top-Section {
+    background-image: url(first-section-image.jpeg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.Top-Section .First-Section {
+    font-size: 45px;
+    text-transform: uppercase;
+    background-color: #313534;
+    width: 500px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.Section-First {
+    margin: 25px;
+    text-align: center;
+    min-height: 30%;
+    color: grey;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.Section-First span {
+    font-size: 45px;
+}
+
+.Section-First p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.Second-Section {
+    background-image: url(Section-two-image.jpeg);
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.Second-Section .First-Section {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.488);
+    border-radius: 10px;
+}
+
+.Section-second {
+    margin: 25px;
+    text-align: center;
+    min-height: 30%;
+    color: grey;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.Section-second span {
+    font-size: 45px;
+}
+
+.Section-second p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.third-Section {
+    background-image: url(section-three-image.jpeg);
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.third-Section .First-Section {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.145);
+    border-radius: 10px;
+}
+
+.Section-third {
+    margin: 25px;
+    text-align: center;
+    min-height: 30%;
+    color: grey;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.Section-third span {
+    font-size: 45px;
+}
+
+.Section-third p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.fourth-Section {
+    background-image: url(first-section-image.jpeg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.fourth-Section .First-Section {
+    font-size: 45px;
+    text-transform: uppercase;
+    background-color: #313534;
+    width: 500px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

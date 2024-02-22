@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --page-width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav .nav-text {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+header nav .Icons-nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main section {
+    max-width: var(--page-width);
+}
+
+main .Section-First {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+main .Section-First h1 {
+    font-size: 60px;
+}
+
+main .Section-First h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.867);
+}
+
+main .Section-First figure {
+    padding: 20px;
+}
+
+main .Section-First figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    padding: 10px;
+}
+
+main .Section-Second {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px black;
+}
+
+main .Section-Second .Text-section-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 80px;
+}
+
+main .Section-Second .Text-section-second .last-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .Section-Second .Text-section-second .last-text #span-two {
+    font-weight: bold;
+}
+
+
+
+main .Third-section {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding: 100px 50px;
+
+}
+
+main .Third-section .container {
+    animation: zoom 2s 0.50s linear normal none;
+}
+
+main .Third-section .container {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.247);
+}
+
+main .Third-section .container:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.532);
+}
+
+main .Third-section img {
+    width: 100%;
+}
+
+
+main .Third-section .container .Text-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .Third-section .container .Text-container h2 {
+    font-weight: bold;
+}
+
+main .Third-section .container .Text-container p {
+    opacity: 0.80;
+}
+
+.date-read-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.date-read-more #First-container {
+    opacity: 0.80;
+}
+
+.date-read-more #Second-container {
+    font-weight: bold;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0%);
+    }
+
+    50% {
+        transform: scale(50%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+main .Forth-Section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    gap: 90px;
+   
+}
+
+main .Forth-Section .Text-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+main .Forth-Section .Text-Container h1 {
+    font-size: 50px
+}
+
+main .Forth-Section .Text-Container p {
+    opacity: 0.80;
+}
+main .Forth-Section .Text-Container .date-read-more #Second-container {
+    font-weight: bold;
+}
+
+main .section-fifth {
+    margin: 0 auto;
+  padding: 5px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+main .section-fifth span {
+    padding: 5px 20px;
+    background-color: #6B46C1 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+
+
+footer {
+  max-width: var(--page-width);
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 40px 40px;
+   
+}
+footer .Footer-text {
+    font-size: 20px;
+}
+footer .Footer-Icons {
+    display: flex;
+    gap: 30px;
+}
+.Sepration {
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
